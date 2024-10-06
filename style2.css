@@ -1,0 +1,34 @@
+body {
+	background:linear-gradient(gray, black);
+	background-repeat: no-repeat;
+	height: 100%;
+	margin: 0%;
+	background-attachment: fixed;
+}
+
+img  {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+button:hover {
+	background-color: #f2f2f2;
+	font-family:sans-serif
+}
+
+button {
+	background-color:rgb(179, 233, 71);
+	font-family:"Qwitcher Grypen", cursive;
+	padding: 30px 20px;
+	border:none;
+	border-radius: 50px;
+	cursor:auto;
+	display: block;
+	margin: 5% auto;
+}
+
+.contenedor {
+	display: flex;
+}
